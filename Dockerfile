@@ -1,6 +1,6 @@
 FROM alpine:3.7
 
-MAINTAINER walter AT dcc DOT ufmg DOT br
+LABEL maintainer="walter AT dcc DOT ufmg DOT br"
 
 ENV SPARK_VERSION 2.3.0
 ENV SPARK_HADOOP_VERSION 2.7
